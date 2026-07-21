@@ -8,5 +8,10 @@ __pycache__/
 # 系统文件
 .DS_Store
 
+# 教师版 / 助教版——不发学生（同 0_agent_basic 惯例）
+助教评分要点_Agent作业2.md
+# 本地设置不入库（.claude/skills/ 是学生教练，要发布）
+.claude/settings.local.json
+
 # demo_project 练习时可能生成的临时文件
 demo_project/data/notes_export.md

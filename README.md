@@ -64,3 +64,18 @@ python c0_json.py
 
 ---
 *MIT License｜郑先隽,北师大心理学部教授,人本AI设计与创新｜助教:元真、师婕*
+
+## 🤖 AI 教练带着走
+
+本模块自带 3 个 Claude Code 教练 skill(在 `.claude/skills/`)——它们**只陪跑,不代写**:
+
+| skill | 什么时候用 | 做什么 |
+|---|---|---|
+| `/harness-tutor` | 概念没吃透时 | 对照真 Claude Code 讲五支柱,费曼式让你自己讲,帮你看清每个 c 比上一个只多了什么 |
+| `/harness-hw2` | 做作业2(三选一)时 | 帮你按兴趣选题,卡住了按三级提示逐级解卡,交前对照验收自查 |
+| `/harness-debug` | 做 capstone 修 bug 时 | 陪你用**自己的 mini CC** 走完 复现→定位→修复→验证,绝不剧透 bug 在哪 |
+
+用法一句话:在本目录里运行 `claude`,输入对应的 `/harness-*` 即可。配套材料:`resources.md`(按学习进度查)、`checklists/学习门禁总清单.md`(逐阶段验收)。助教请看 `助教_skills使用说明.md`。
+
+---
+*MIT License｜郑先隽，北京师范大学心理学部教授，人本AI设计与创新*
